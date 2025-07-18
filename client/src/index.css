@@ -654,6 +654,8 @@ code {
 .text-muted { color: var(--text-muted); }
 .text-white { color: white; }
 .text-black { color: black; }
+.text-green-500 { color: #10b981; }
+.text-yellow-500 { color: #f59e0b; }
 
 .bg-primary { background-color: var(--bg-primary); }
 .bg-secondary { background-color: var(--bg-secondary); }
@@ -776,4 +778,60 @@ footer {
 
 .opacity-90 {
   opacity: 0.9;
+}
+
+.space-y-2 > * + * {
+  margin-top: 0.5rem;
+}
+
+.space-x-4 > * + * {
+  margin-left: 1rem;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.transform {
+  transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+.translate-x-1\/2 {
+  transform: translateX(50%);
+}
+
+.scale-105 {
+  transform: scale(1.05);
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.border-2 {
+  border-width: 2px;
 }
