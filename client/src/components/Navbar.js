@@ -36,13 +36,13 @@ const Navbar = () => {
               Dashboard
             </Link>
             <Link
-              to="/dashboard?filter=lost"
+              to="/dashboard?type=lost"
               className="text-secondary hover:text-primary transition-colors font-medium"
             >
               Lost Items
             </Link>
             <Link
-              to="/dashboard?filter=found"
+              to="/dashboard?type=found"
               className="text-secondary hover:text-primary transition-colors font-medium"
             >
               Found Items
